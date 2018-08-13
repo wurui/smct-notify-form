@@ -7,14 +7,14 @@
         			<div class="result">
 		                <div class="result-icon result-code-0"></div>
 		                <div class="result-msg">
-		                    您的通知信息已经提交成功
+		                    <h3>您的通知信息已经提交!</h3>
 		                </div>
 		            </div>
         		</xsl:when>
         		<xsl:otherwise>
 		            <form>
-		                <input type="hidden" name="ref" value="q/post-message.ref"/>
-		                <input type="hidden" name="uid" value="login/uid"/>
+		                <input type="hidden" name="ref" value="{q/post-message.ref}"/>
+		                <input type="hidden" name="uid" value="{login/uid}"/>
 		                <ul>
 		                    <li class="type-select">
 		                        <select name="message" required="required">
