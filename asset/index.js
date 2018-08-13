@@ -10,8 +10,11 @@ define(['oxjs','oxm/wurui/image-uploader/0.3.0/asset/main'],function(OXJS,Upload
     			ref:this.ref.value,
     			message:this.message.value,
     			imgs:uploader && uploader.fileQ.map(x=>x._data),
+    			$inserter:'default'
     		}
-    		$mod.OXPost(data,function(){
+    		$mod.OXPost({
+    			'post-message':data
+    		},function(){
     			$mod.OXRefresh();
     		})
 
