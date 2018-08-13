@@ -16,7 +16,7 @@
     </p>
     <data>
     <post-message ADAPTERID="25b70f119aaa7738836f2017c">
-        <!--
+        
         <i>
             <uid>git/wurui</uid>
             <message>挡路</message>
@@ -26,7 +26,7 @@
             </imgs>
             <ref>abcdef1234567890</ref>
             <_id>5b70f119aaa7738836f2017b</_id>
-        </i>-->
+        </i>
     </post-message>
     </data>
 </root>
