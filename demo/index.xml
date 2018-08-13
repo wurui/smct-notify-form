@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="../demo.xsl"?>
+<root>
+    <env>
+        <domain>local</domain>
+    </env>
+    <login>
+        <uid>git/wurui</uid>
+        <nick>wurui</nick>
+    </login>
+    <p>
+        <title>smct-notify-form demo page</title>
+        <desc>this is deme page</desc>
+        <owner>openxsl</owner>
+        <icon>//oxm1.cc/img/app_default.png</icon>
+    </p>
+    <data>
+    <post-message ADAPTERID="25b70f119aaa7738836f2017c">
+        <i>
+            <uid>git/wurui</uid>
+            <message>挡路</message>
+            <imgs>
+                <i>http://i.oxm1.cc/uploads/git/wurui/img/2ahdk0cclTj1yt19d7R9vyzA3ctz-666.jpg</i>
+                <i>http://i.oxm1.cc/uploads/git/wurui/img/2ahdk0biaTj1yt1a7iR9b98A1guk-667.jpg</i>
+            </imgs>
+            <ref>abcdef1234567890</ref>
+            <_id>5b70f119aaa7738836f2017b</_id>
+        </i>
+    </post-message>
+    </data>
+</root>
