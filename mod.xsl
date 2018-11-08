@@ -3,7 +3,7 @@
         <!-- className 'J_OXMod' required  -->
         <div class="J_OXMod oxmod-smct-notify-form" ox-mod="smct-notify-form">
         	<xsl:choose>
-        		<xsl:when test="count(data/post-message/i) &gt; 0">
+        		<xsl:when test="count(data/user-comment/i) &gt; 0">
         			<div class="result">
 		                <div class="result-icon result-code-0"></div>
 		                <div class="result-msg">
@@ -13,11 +13,11 @@
         		</xsl:when>
         		<xsl:otherwise>
 		            <form>
-		                <input type="hidden" name="ref" value="{q/post-message.ref}"/>
-		                <input type="hidden" name="uid" value="{login/uid}"/>
+		                <input type="hidden" name="target" value="{q/user-comment.target}"/>
+		                
 		                <ul>
 		                    <li class="type-select">
-		                        <select name="message" required="required">
+		                        <select name="content" required="required">
 		                            <option value="">请选择</option>
 		                            <option>挡路</option>
 		                            <option>交通事故</option>

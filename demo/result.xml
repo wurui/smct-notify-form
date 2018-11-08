@@ -15,18 +15,32 @@
         <icon>//oxm1.cc/img/app_default.png</icon>
     </p>
     <data>
-    <post-message ADAPTERID="25b70f119aaa7738836f2017c">
         
-        <i>
-            <uid>git/wurui</uid>
-            <message>挡路</message>
-            <imgs>
-                <i>http://i.oxm1.cc/uploads/git/wurui/img/2ahdk0cclTj1yt19d7R9vyzA3ctz-666.jpg</i>
-                <i>http://i.oxm1.cc/uploads/git/wurui/img/2ahdk0biaTj1yt1a7iR9b98A1guk-667.jpg</i>
-            </imgs>
-            <ref>abcdef1234567890</ref>
-            <_id>5b70f119aaa7738836f2017b</_id>
-        </i>
-    </post-message>
+        <user-comment ADAPTERID="25b70f119aaa7738836f2017c">
+            
+            <i>
+                <uid>git/wurui</uid>
+                <content>挡路</content>
+                <media>
+                    <i>
+                        <type>image</type>
+                        <src>http://i.oxm1.cc/uploads/git/wurui/img/2ahdk0cclTj1yt19d7R9vyzA3ctz-666.jpg</src>
+                    </i>
+                    <i>
+                        <type>image</type>
+                        <src>http://i.oxm1.cc/uploads/git/wurui/img/2ahdk0biaTj1yt1a7iR9b98A1guk-667.jpg</src>
+                    </i>
+                </media>
+                <target>abcdef1234567890</target>
+                <time>
+                    <y>2018</y>
+                    <M>8</M>
+                    <d>13</d>
+                    <H>14</H>
+                    <m>22</m>
+                </time>
+                <_id>5b70f119aaa7738836f2017b</_id>
+            </i>
+        </user-comment>
     </data>
 </root>

@@ -2,9 +2,9 @@
   "RULE_VERSION":"20180724",
   "name": "smct-notify-form",
   "apiDependencies": [
-  {
-    "name": "post-message"
-  }
-]
+	  {
+	    "name": "user-comment"
+	  }
+	]
 }
 

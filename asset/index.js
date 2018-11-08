@@ -6,14 +6,16 @@ define(['oxjs','oxm/wurui/image-uploader/0.3.0/asset/main'],function(OXJS,Upload
     	$('form',$mod).on('submit',function(e){
 
     		var data={
-    			uid:this.uid.value,
-    			ref:this.ref.value,
-    			message:this.message.value,
-    			imgs:uploader && uploader.fileQ.map(x=>x._data),
+    			//uid:this.uid.value,
+    			target:this.target.value,
+    			content:this.content.value,
+    			media:uploader && uploader.fileQ.map(function(x){
+                    return {type:'image',src: x._data}
+                }),
     			$inserter:'default'
     		}
     		$mod.OXPost({
-    			'post-message':data
+    			'user-comment':data
     		},function(){
     			$mod.OXRefresh();
     		})
