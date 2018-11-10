@@ -16,8 +16,14 @@ define(['oxjs','oxm/wurui/image-uploader/0.3.0/asset/main'],function(OXJS,Upload
     		}
     		$mod.OXPost({
     			'user-comment':data
-    		},function(){
-    			$mod.OXRefresh();
+    		},function(r){
+                var err=r && r[0] && r[0].error;
+                if(err){
+                    OXJS.toast(err.replace('[IO_ERROR]',''))
+                }else{
+                    $mod.OXRefresh();
+                }
+    			
     		})
 
     		return false
